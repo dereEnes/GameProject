@@ -11,5 +11,7 @@ namespace GameProject.Entities
         public int PersentageOfDiscount { get; set; }
         public DateTime DateOfStarts { get; set; }
         public DateTime DateOfFinish { get; set; }
+
+
     }
 }

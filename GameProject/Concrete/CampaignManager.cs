@@ -10,17 +10,17 @@ namespace GameProject.Concrete
     {
         public void Add(Campaign campaign)
         {
-            Console.WriteLine(campaign.PersentageOfDiscount+" Eklendi.");
+            Console.WriteLine(campaign.CampaignId + "'li kampanya Eklendi.");
         }
 
         public void Delete(Campaign campaign)
         {
-            Console.WriteLine(campaign.PersentageOfDiscount+" Silindi");
+            Console.WriteLine(campaign.CampaignId+"'li kampanya silindi");
         }
 
         public void Update(Campaign campaign)
         {
-            Console.WriteLine(campaign.PersentageOfDiscount+" Güncellendi");
+            Console.WriteLine(campaign.CampaignId + "'li kampanya Güncellendi");
         }
     }
 }
