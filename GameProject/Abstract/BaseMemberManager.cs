@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GameProject.Abstract
 {
-     class BaseMemberManager:IMemberService
+     abstract class BaseMemberManager:IMemberService
     {
        
         public virtual void Add(Member member)
